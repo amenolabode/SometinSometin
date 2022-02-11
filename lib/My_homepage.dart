@@ -27,7 +27,7 @@ class _MyHomePageState extends State<MyHomePage> {
             content = _discountView();
           } else if (position == 2) {
             content = _moreView();
-          }
+          } else {}
           return _theView();
         },
       ),
